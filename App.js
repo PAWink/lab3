@@ -3,7 +3,7 @@ import Charactercard from './CharacterCard';
 import './App.css'
 import _ from 'lodash'
 
-let message = 'Hello World! My name is Supaporn Pedkong';
+let message = 'LOVE TA';
 
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
@@ -56,7 +56,7 @@ class App extends React.Component {
         }
         <div>Attemp {this.state.attempt}</div>
         {
-          this.state.completed && <h4>Complete</h4>
+          this.state.completed && <h4>YOU WIN</h4>
         }
       </div>
     )
