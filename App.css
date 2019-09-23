@@ -1,5 +1,5 @@
 .card {
-  display: inline-block;
+  display: inline-flex;
   text-align: left;
   width: 3em;
   font-size: 2em;
@@ -10,5 +10,5 @@
 
  .activeCard {
   color: red;
-  background: blue;
+  background: pink;
  }
