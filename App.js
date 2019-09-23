@@ -3,7 +3,7 @@ import Charactercard from './CharacterCard';
 import './App.css'
 import _ from 'lodash'
 
-let message = 'Hello World!';
+let message = 'Hello World! My name is Supaporn Pedkong';
 
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
