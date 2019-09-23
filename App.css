@@ -1,10 +1,10 @@
 .card {
   display: inline-flex;
   text-align: left;
-  width: 3em;
-  font-size: 2em;
+  width: 4em;
+  font-size: 5em;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  margin: 1em;
+  margin: 5em;
   user-select: none;
  }
 
